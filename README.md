@@ -13,11 +13,11 @@ It demonstrates:
 - JavaScript interactive features
 
 Required Interactive Features:
-- ✔️ Mobile hamburger navigation
-- ✔️ JavaScript product modal
-- ✔️ Responsive CSS Grid layout
-- ✔️ Multi-page website (Home, Flavours, Contact)
-- ✔️ Clean mobile-first design
+✔️ Mobile hamburger navigation
+✔️ JavaScript product modal
+✔️ Responsive CSS Grid layout
+# ✔️ Multi-page website (Home, Flavours, Contact)
+# ✔️ Clean mobile-first design
 
 All files use:
 index.html, home.html, contact.html
