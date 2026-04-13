@@ -13,6 +13,7 @@ It demonstrates:
 - JavaScript interactive features
 
 Required Interactive Features:
+
 ✔️ Mobile hamburger navigation
 ✔️ JavaScript product modal
 ✔️ Responsive CSS Grid layout
