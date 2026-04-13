@@ -15,9 +15,13 @@ It demonstrates:
 Required Interactive Features:
 
 ✔️ Mobile hamburger navigation
+
 ✔️ JavaScript product modal
+
 ✔️ Responsive CSS Grid layout
+
 ✔️ Multi-page website (Home, Flavours, Contact)
+
 ✔️ Clean mobile-first design
 
 All files use:
