@@ -1,4 +1,5 @@
 ## 🥤✨ Dr. Nut — Final Integrated Project
+![Alt text](https://github.com/harsh27v/Harsh-FIP_SEM2/blob/4991c630ccc461fbd3b8ab108f00e01f84ed2a4c/images/Cinemagraph6.gif)
 Welcome to the Dr. Nut Soda Multi-Page Website — a promotional beverage brand website created for the Final Integrated Project (FIP-SEM2).
 This project includes three fully responsive pages built using semantic HTML, CSS Grid, and JavaScript interactions.
 
