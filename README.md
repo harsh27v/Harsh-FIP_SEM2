@@ -13,14 +13,14 @@ It demonstrates:
 - JavaScript interactive features
 
 Required Interactive Features:
-✔️ Mobile hamburger navigation
-✔️ JavaScript product modal
-✔️ Responsive CSS Grid layout
-# ✔️ Multi-page website (Home, Flavours, Contact)
-# ✔️ Clean mobile-first design
+✔️ Mobile hamburger navigation.
+✔️ JavaScript product modal.
+✔️ Responsive CSS Grid layout.
+✔️ Multi-page website (Home, Flavours, Contact).
+✔️ Clean mobile-first design.
 
 All files use:
-index.html, home.html, contact.html
+index.html, home.html, contact.html.
 plus:
 css/main.css, css/grid.css and JavaScript/main.js
 
@@ -29,10 +29,10 @@ No installation required, simply download the zip file and extract.
 
 ## 🧭 Usage
 
- Navigate through pages using the navigation menu
- Click "Learn More" buttons to open product modal
- Resize browser to test responsive design
- Use mobile view to test hamburger menu
+ Navigate through pages using the navigation menu.
+ Click "Learn More" buttons to open product modal.
+ Resize browser to test responsive design.
+ Use mobile view to test hamburger menu.
 
 ## Contributing 
 1. Fork it!
