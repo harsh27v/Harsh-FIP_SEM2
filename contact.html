@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Averia+Gruesa+Libre&family=Bebas+Neue&family=Lobster&family=Macondo&family=Short+Stack&display=swap"
+        rel="stylesheet">
+    <title>Dr.Nut Soda</title>
+</head>
+
+<body>
+    <h1 class="visually-hidden">Dr.Nut Premium Soda Website</h1>
+    <header class="grid-con center-grid-con header">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" class="col-span-1 hamburger">
+            <img src="images/burger.svg" alt="hamburgerMenu">
+        </label>
+        <div class="col-span-2 m-col-span-3 logo">
+            <img src="images/Final_Logo.png" alt="logo">
+        </div>
+        <nav class="col-span-full m-col-span-9 nav" id="burger-con">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Flavours</a></li>
+                <li><a href="home.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="index.html">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="grid-con center-grid-con contact-hero">
+        <h2 class="visually-hidden">Contact Us</h2>
+        <div class="col-span-full">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you.</p>
+        </div>
+    </section>
+    <section class="grid-con center-grid-con contact-content">
+        <h2 class="visually-hidden">Get in Touch</h2>
+        <div class="col-span-full m-col-span-5 contact-info">
+            <h3>Get in Touch</h3>
+            <p><strong>Email:</strong> Dr.Nut.com</p>
+            <p><strong>Phone:</strong> +1 (123)-4567</p>
+            <p><strong>Address:</strong> 123 Soda Street, Toronto, Canada</p>
+            <div class="map-img">
+                <img src="images/map.jpg" alt="Toronto Map">
+            </div>
+        </div>
+        <div class="col-span-full m-col-span-7 contact-form">
+            <h3>Send Us a Message</h3>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email">
+                <label for="message">Message</label>
+                <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer-wrapper">
+        <div class="grid-con center-grid-con footer">
+            <div class="col-span-full m-col-span-4 footer-left">
+                <img src="images/Final_Logo.png" alt="Dr.Nut Logo" class="footer-logo">
+                <div class="footer-social">
+                    <img src="images/Facebook.webp" alt="facebook">
+                    <img src="images/twitter.png" alt="twitter">
+                    <img src="images/insta.webp" alt="instagram">
+                </div>
+            </div>
+            <div class="col-span-full m-col-span-8 footer-right">
+                <div class="footer-email">
+                    <input type="email" placeholder="Email">
+                    <button>Sign Up</button>
+                </div>
+                <div class="footer-help">
+                    <h3>HELP</h3>
+                    <p>FAQs</p>
+                    <p>Contact Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Refund Policy</p>
+                </div>
+                <div class="footer-nav">
+                    <p>HOME</p>
+                    <p>FLAVORS</p>
+                    <p>ABOUT</p>
+                    <p>ORDER</p>
+                    <p>SHOP</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
