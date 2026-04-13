@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Averia+Gruesa+Libre&family=Bebas+Neue&family=Lobster&family=Macondo&family=Short+Stack&display=swap"
+        rel="stylesheet">
+    <title>Dr.Nut Soda</title>
+</head>
+
+<body>
+    <h1 class="visually-hidden">Dr.Nut Premium Soda Website</h1>
+    <header class="grid-con center-grid-con header">
+        <input type="checkbox" id="hamburger">
+        <label for="hamburger" class="col-span-1 hamburger">
+            <img src="images/burger.svg" alt="hamburgerMenu">
+        </label>
+        <div class="col-span-2 m-col-span-3 logo">
+            <img src="images/Final_Logo.png" alt="logo">
+        </div>
+        <nav class="col-span-full m-col-span-9 nav" id="burger-con">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html" class="active">Flavours</a></li>
+                <li><a href="home.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="grid-con center-grid-con hero">
+        <h2 class="visually-hidden">Hero Promotion Section</h2>
+        <div class="col-span-full hero-container">
+            <img src="images/hero.jpg" alt="Dr.Nut Soda Promotion" class="hero-image">
+        </div>
+    </section>
+    <section class="grid-con center-grid-con bottles">
+        <div class="col-span-full bottles-header">
+            <h2>Signature Flavours</h2>
+            <p>( Can Products )</p>
+        </div>
+        <div class="col-span-full m-col-span-4 bottle-card">
+            <img src="images/Orange.png" class="bottle-img" alt="orange">
+            <h3>Orange Fizz</h3>
+            <p>Bright, Bubbly, Bold Citrus Kick</p>
+            <a href="#" class="learn-btn" data-product="orange">Learn More</a>
+        </div>
+        <div class="col-span-full m-col-span-4 bottle-card">
+            <img src="images/Lemon.png" class="bottle-img" alt="lemon">
+            <h3>Fresh Lemon Lemonade</h3>
+            <p>Zesty Freshness, Pure Chill</p>
+            <a href="#" class="learn-btn" data-product="lemon">Learn More</a>
+        </div>
+        <div class="col-span-full m-col-span-4 bottle-card">
+            <img src="images/Blueberry.png" class="bottle-img" alt="blueberry">
+            <h3>Blueberry Burst</h3>
+            <p>Sweet Berry Splash, Fizzy Delight</p>
+            <a href="#" class="learn-btn" data-product="blueberry">Learn More</a>
+        </div>
+        <div id="product-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-btn" id="close-modal">&times;</span>
+                <h2 id="modal-title">Product info</h2>
+                <p id="modal-text">This is extra product information. Content injected by JavaScript.</p>
+            </div>
+        </div>
+    </section>
+    <section class="grid-con center-grid-con offer-section">
+        <h2 class="visually-hidden">Offer Poster</h2>
+        <div class="col-span-full offer-container">
+            <div class="offer-left">
+                <img src="images/offer.png" alt="Special Offer" class="offer-poster">
+            </div>
+            <div class="offer-right">
+                <h2>Special Offer</h2>
+                <p>Celebrate Soda Day with an exclusive 50% off on all our sodas.</p>
+                <a href="#" class="offer-btn">Get Now</a>
+            </div>
+        </div>
+    </section>
+    <section class="logo-section-slide">
+        <div class="grid-con center-grid-con logo-section">
+            <div class="col-span-full text-center">
+                <h2>Where To Buy?</h2>
+            </div>
+            <div class="col-span-full logo-row">
+                <img src="images/Icon.png" alt="official dr.nut store">
+                <img src="images/walmart.png" alt="walmart">
+                <img src="images/amazon_PNG6.png" alt="amazon">
+                <img src="images/2960679-2182.png" alt="convenience store">
+            </div>
+        </div>
+    </section>
+    <footer class="footer-wrapper">
+        <div class="grid-con center-grid-con footer">
+            <div class="col-span-full m-col-span-4 footer-left">
+                <img src="images/Final_Logo.png" alt="Dr.Nut Logo" class="footer-logo">
+                <div class="footer-social">
+                    <img src="images/Facebook.webp" alt="facebook">
+                    <img src="images/twitter.png" alt="twitter">
+                    <img src="images/insta.webp" alt="instagram">
+                </div>
+            </div>
+            <div class="col-span-full m-col-span-8 footer-right">
+                <div class="footer-email">
+                    <input type="email" placeholder="Email">
+                    <button>Sign Up</button>
+                </div>
+                <div class="footer-help">
+                    <h3>HELP</h3>
+                    <p>FAQs</p>
+                    <p>Contact Us</p>
+                    <p>Privacy Policy</p>
+                    <p>Refund Policy</p>
+                </div>
+                <div class="footer-nav">
+                    <p>HOME</p>
+                    <p>FLAVORS</p>
+                    <p>ABOUT</p>
+                    <p>ORDER</p>
+                    <p>SHOP</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
