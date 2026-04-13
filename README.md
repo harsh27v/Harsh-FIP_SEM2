@@ -3,26 +3,21 @@ Welcome to the Dr. Nut Soda Multi-Page Website — a promotional beverage brand 
 This project includes three fully responsive pages built using semantic HTML, CSS Grid, and JavaScript interactions.
 
 ## 💡 Purpose
-
 This project was created as the Final Integrated Project for the Web Development course.
+
 It demonstrates:
-
-Semantic HTML structure + valid document outline
-
-Fully responsive CSS Grid layouts (mobile-first design)
-
-Custom branding for Dr. Nut soda brand
-
-Clean UI and accessibility-focused layout
-
-JavaScript interactive features
+- Semantic HTML structure + valid document outline
+- Fully responsive CSS Grid layouts (mobile-first design)
+- Custom branding for Dr. Nut soda brand
+- Clean UI and accessibility-focused layout
+- JavaScript interactive features
 
 Required Interactive Features:
-✔️ Mobile hamburger navigation
-✔️ JavaScript product modal
-✔️ Responsive CSS Grid layout
-✔️ Multi-page website (Home, Flavours, Contact)
-✔️ Clean mobile-first design
+- ✔️ Mobile hamburger navigation
+- ✔️ JavaScript product modal
+- ✔️ Responsive CSS Grid layout
+- ✔️ Multi-page website (Home, Flavours, Contact)
+- ✔️ Clean mobile-first design
 
 All files use:
 index.html, home.html, contact.html
@@ -34,10 +29,10 @@ No installation required, simply download the zip file and extract.
 
 ## 🧭 Usage
 
-Navigate through pages using the navigation menu
-Click "Learn More" buttons to open product modal
-Resize browser to test responsive design
-Use mobile view to test hamburger menu
+ Navigate through pages using the navigation menu
+ Click "Learn More" buttons to open product modal
+ Resize browser to test responsive design
+ Use mobile view to test hamburger menu
 
 ## Contributing 
 1. Fork it!
@@ -47,10 +42,10 @@ Use mobile view to test hamburger menu
 5. Submit a pull request :D
 
 ## 🕒 History
-Final Integrated Project — Second Term Submission
-Mobile-first responsive layout
-Added JavaScript modal interaction
-Improved UI and accessibility
+- Final Integrated Project — Second Term Submission
+- Mobile-first responsive layout
+- Added JavaScript modal interaction
+- Improved UI and accessibility
 
 ## Credits
 Harsh Vasita 
